@@ -1,0 +1,137 @@
+CSS
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #adadad;
+}
+
+header {
+  background-color: #0099ff;
+  color: #b35454;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  flex: 0 0 100px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.search-bar {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+/* New styles for login and register buttons */
+.login-register {
+  display: flex;
+}
+
+.login-register a {
+  padding: 10px 20px;
+  background-color: transparent; /* Transparent background for buttons */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline from links */
+  border: 1px solid #fff; /* White border for buttons */
+  margin-left: 10px; /* Add spacing between buttons */
+}
+
+.login-register a:hover {
+  background-color: #ddd; /* Button background on hover */
+  color: #000; /* Text color on hover */
+}
+
+h1{
+
+font-size: 80px;
+color: rgb(15, 18, 235);
+}
+.bawah{
+font-size: 40px;
+}
+
+
+h2{
+  margin-top: 100px ;
+    color:rgb(15, 18, 235);
+  }
+
+  h4{
+    padding: 10px ;
+      color:rgb(15, 18, 235);
+    }
+
+.kolom3{
+  margin-left: 10%;
+}
+
+/* bagian footer*/
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; /* Membuat konten berada di tengah */
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.social-icons li a {
+  display: block;
+}
+
+.social-icons li a img {
+  width: 40px; /* Sesuaikan ukuran ikon sesuai kebutuhan */
+  height: auto;
+}
